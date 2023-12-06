@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;800&display=swap);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #161723;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.head {
+  color: azure;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.wrap {
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  background-image: url('https://www.themoviedb.org/t/p/w1920_and_h600_multi_faces_filter(duotone,00192f,00baff)/u0BDggs80FG9tyZwxWTzVTDQls0.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 250px;
+
+}
+
+.wrap h1 {
+  color: white;
+}
+
+.wrap span {
+  color: #b7b7b7;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: rgba(0, 0, 255, 0.309);
+  overflow: visible;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(255, 253, 253, 0.072);
+}
+
+::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px rgba(0, 7, 67, 0.93);
+}
+
+.movie {
+  z-index: 1;
+  position: relative;
+  top: 100px;
+}
+
+.wrapper {
+  width: 100%;
+  color: white;
+
+}
+
+.wrap-color {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.575);
+  /* border-radius: 10px; */
+  /* padding: 50px 80px, */
+  padding: 150px 50px;
+  margin: 0;
+}
+
+
+.content-img {
+  width: 350px;
+  height: 500px;
+}
+
+.title {
+  text-align: center;
+}
+
+.content-img img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.pagination {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.singel-content {
+  width: 100%;
+  height: 400px;
+  text-decoration: none;
+
+}
+
+.texts {
+  color: rgb(160, 161, 161);
+  font-family: sans-serif;
+}
+
+.carusel-wrap {
+  padding: 10px;
+}
+
+.singleCard img {
+  width: 150px;
+  height: 200px;
+}
+
+.singleCard span {
+  color: rgb(185, 182, 182);
+  font-size: 15px;
+}
+
+.video_btn {
+  font-size: 30px;
+  text-decoration: none;
+}

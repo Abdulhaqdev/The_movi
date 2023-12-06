@@ -1,0 +1,27 @@
+.footer {
+    width: 100%;
+    height: 40vh;
+    padding: 50px 0;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer__content__menus {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer__content__menu {
+    /* text-decoration: none; */
+    list-style: none;
+}
+
+.footer__content__item a {
+    text-decoration: none;
+    color: aliceblue;
+    margin: 10px;
+    font-size: 20px;
+}
