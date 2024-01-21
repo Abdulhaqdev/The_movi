@@ -10,10 +10,10 @@ function CustomPagin({ Currentpage, count, Setcurrentpage, BaseUrl }) {
     <div>
       <Pagination
         defaultPage={Currentpage}
-        className="pagination"
+        variant="outlined"
         color="primary"
+        className="pagination"
         count={count}
-        shape="rounded"
         size="large"
         onChange={(e) => {
           if (window.scrollY > 0) {
