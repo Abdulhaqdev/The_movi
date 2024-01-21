@@ -1,4 +1,5 @@
-import { Pagination } from "@material-ui/lab";
+// import { Pagination } from "@material-ui/lab";
+import { Pagination } from "@mui/material";
 import React from "react";
 import { useNavigate } from "react-router";
 
